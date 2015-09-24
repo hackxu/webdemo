@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+</head>
+<body>
+
+    <script>
+        var r = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+        r.setAttribute("fill", "#120045");
+        r.setAttribute("x", "1");
+        r.setAttribute("y", "1");
+        r.setAttribute("width", "50%");
+        r.setAttribute("height", "50%");
+        r.addEventListener("click", function () {
+            alert('clicked');
+        });
+        svg.appendChild(r);
+    </script>
+
+</body>
+</html>
